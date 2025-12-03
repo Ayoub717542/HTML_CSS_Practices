@@ -1,0 +1,57 @@
+
+*{
+     box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    margin: 0;   
+    background-image: url(pexels-energepic-com-27411-110469.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;           
+}
+.card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 3px solid black;
+        padding: 16px;
+        width: 450px; 
+        box-sizing: border-box; 
+        gap: 8px; 
+        background-color: aquamarine;
+}
+.card-title{
+    justify-content: center;
+}
+button{
+    color: white;
+    background-color:rgb(24, 24, 24);
+    padding: 5px;
+}
+.card-body{
+    padding: 2px 16px;
+}
+img{
+    width: 250px;
+    border-radius: 50%;
+}
+table{
+    background-color: black;
+    width: 50%;
+    border-radius: 20px;
+}
+tr{
+    background-color: rgb(78, 83, 76);
+}
+th{
+    width: 100px;
+    background-color: aliceblue;
+}
+td{
+    background-color: aliceblue;
+}
+
